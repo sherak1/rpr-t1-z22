@@ -13,13 +13,17 @@ public class Main {
     }
     private static int sumaCifara(int broj) {
         int suma = 0;
-        while (broj != 0) ;
-        suma += broj % 10;
-        broj /= 10;
-    }
-    return suma;
+        while (broj != 0) {
+            suma += broj % 10;
+            broj /= 10;
         }
-}
+        return suma;
+    } }
+
+
+
+
+
 
 
 
